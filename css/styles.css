@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Martel', serif;
+    background: #f4f4f4;
+}
+
+/* Header */
+
+.main-header {
+    text-align: center;
+}
+
+.main-header h1 {
+    background: #000018;
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.main-header h2 {
+    margin-bottom: .5em;
+    font-weight: 800;
+}
+
+.main-header p {
+    width: 80%;
+    margin: 0 auto 2em;
+    font-size: 1.1em;
+}
+
+.double-bar {
+    padding: .1em;
+    width: 90%;
+    margin: 0 auto 2em;
+    border-top: 5px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+/* Contact Info */
+
+.contact-info {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 3px solid black;
+    padding-bottom: 1em;
+}
+
+.contact-info-heading {
+    font-weight: 800;
+    margin-bottom: 1em;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    background: #e9e9e9;
+    border: none;
+    border-radius: 5px;
+    height: 4em;
+    width: 100%;
+    padding: 0 2em;
+}
+
+#zip {
+    width: initial;
+}
+
+label[for="zip"] {
+    display: block;
+}
+
+::placeholder {
+    font-style: italic;
+    text-align: right;
+}
+
+.contact-info input,
+.contact-info select {
+    margin: 1em 0;
+}
+
+/* Newsletter */
+
+.newsletter {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.newsletter input {
+    margin: 1em 1em 1em 0;
+}
+
+.newsletter textarea {
+    margin-top: 1em;
+    height: 7.5em;
+}
+
+.newsletter-heading {
+    margin: 1em 0;
+    font-weight: 800;
+}
+
+button {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background: #52bab3;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Martel';
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+.main-footer {
+    text-align: center;
+    padding: 2em;
+    font-style: italic;
+    font-size: .8em;
+    color: #979696;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .lower-header {
+        width: 60%;
+        margin: auto;
+    }
+    .main {
+        width: 60%;
+        margin: auto;
+    }
+
+    /* Contact Info */
+   .form-row {
+       display: flex;
+       justify-content: flex-end;
+   }
+   .form-row > label {
+       flex: 1;
+       padding-top: 1.5em;
+       padding-right: 1.5em;
+   }
+   .form-row > input {
+       flex: 2;
+   }
+   .form-row > input[id="zip"] {
+       flex: 0;
+   }
+   .form-row-zip {
+       justify-content: flex-start;
+   }
+}
