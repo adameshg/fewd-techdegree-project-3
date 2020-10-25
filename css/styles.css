@@ -170,7 +170,6 @@ button {
        flex: 0;
    }
    #zip {
-    width: 180px;
-    margin-right: 17%;
+    margin-right: 80px; /* Left-align "Zip Code" input box */
    }
 }
