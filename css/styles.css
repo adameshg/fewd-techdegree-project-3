@@ -9,6 +9,13 @@ body {
     background: #f4f4f4;
 }
 
+.main {
+    width: 99%;
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 0 1em;
+}
+
 /* Header */
 
 .main-header {
@@ -45,8 +52,6 @@ body {
 /* Contact Info */
 
 .contact-info {
-    width: 90%;
-    margin: 0 auto;
     border-bottom: 3px solid black;
     padding-bottom: 1em;
 }
@@ -97,11 +102,6 @@ label[for="zip"] {
 }
 
 /* Newsletter */
-
-.newsletter {
-    width: 90%;
-    margin: 0 auto;
-}
 
 .newsletter input {
     margin: 1em 1em 1em 0;
@@ -168,5 +168,9 @@ button {
    }
    .form-row > input[id="zip"] {
        flex: 0;
+   }
+   #zip {
+    width: 180px;
+    margin-right: 17%;
    }
 }
