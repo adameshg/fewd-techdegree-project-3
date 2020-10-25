@@ -51,9 +51,14 @@ body {
     padding-bottom: 1em;
 }
 
-.contact-info-heading {
+.no-border {
+    border-bottom: none;
+}
+
+.contact-info legend {
+    margin: 1em 0;
+    font-size: 1.5em;
     font-weight: 800;
-    margin-bottom: 1em;
 }
 
 fieldset {
@@ -106,8 +111,9 @@ label[for="zip"] {
     height: 7.5em;
 }
 
-.newsletter-heading {
-    margin: 1em 0;
+.newsletter legend {
+    padding-top: 1em;
+    font-size: 1.5em;
     font-weight: 800;
 }
 
