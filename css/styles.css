@@ -169,7 +169,4 @@ button {
    .form-row > input[id="zip"] {
        flex: 0;
    }
-   #zip {
-    margin-right: 80px; /* Left-align "Zip Code" input box */
-   }
 }
