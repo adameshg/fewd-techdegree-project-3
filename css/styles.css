@@ -43,7 +43,7 @@ body {
 
 .double-bar {
     padding: .1em;
-    width: 90%;
+    width: 100%;
     margin: 0 auto 2em;
     border-top: 5px solid #000;
     border-bottom: 3px solid #000;
